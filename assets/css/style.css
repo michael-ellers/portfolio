@@ -895,11 +895,11 @@ section {
   color: #47aeff;
 }
 
-.services .iconbox-blue:hover .icon i {
+.services .iconbox-blue:hover .icon:hover i {
   color: #fff;
 }
 
-.services .iconbox-blue:hover .icon path {
+.services .iconbox-blue:hover .icon:hover path {
   fill: #47aeff;
 }
 
