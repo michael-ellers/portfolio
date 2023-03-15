@@ -419,11 +419,11 @@ section {
 
 .about .content ul {
   list-style: none;
-  padding: 0;
+  padding: 0px;
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin: 40px;
   display: flex;
   align-items: center;
 }
@@ -769,7 +769,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding:-top 40px;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -808,12 +808,12 @@ section {
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
-  padding: 0;
+  padding: 10px;
   font-size: 15px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .portfolio-details .portfolio-description {
@@ -827,7 +827,8 @@ section {
 }
 
 .portfolio-details .portfolio-description p {
-  padding: 0;
+  padding: 60px;
+  margin: 40px;
 }
 
 /*--------------------------------------------------------------
