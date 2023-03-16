@@ -488,6 +488,7 @@ section {
 .facts .content ul {
     list-style: none;
     padding: 0;
+    white-space: nowrap;
   }
   
   .facts .content ul li {
@@ -512,7 +513,7 @@ section {
   }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -829,6 +830,11 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 60px;
   margin: 40px;
+}
+
+.portfolio-details .portfolio-pending {
+    padding: 200px;
+    margin-top: 200px;
 }
 
 /*--------------------------------------------------------------
